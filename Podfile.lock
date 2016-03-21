@@ -1,0 +1,44 @@
+PODS:
+  - AMScrollingNavbar (2.0.14)
+  - Bolts (1.6.0):
+    - Bolts/AppLinks (= 1.6.0)
+    - Bolts/Tasks (= 1.6.0)
+  - Bolts/AppLinks (1.6.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.6.0)
+  - Crashlytics (3.7.0):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.7)
+  - FBSDKCoreKit (4.10.1):
+    - Bolts (~> 1.5)
+  - FBSDKLoginKit (4.10.1):
+    - FBSDKCoreKit
+  - Muon (0.1.0)
+
+DEPENDENCIES:
+  - AMScrollingNavbar (~> 2.0.1)
+  - Crashlytics
+  - Fabric
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - Muon (from `https://github.com/younata/Muon.git`)
+
+EXTERNAL SOURCES:
+  Muon:
+    :git: https://github.com/younata/Muon.git
+
+CHECKOUT OPTIONS:
+  Muon:
+    :commit: a62286d15e71ef38e433a9b6ec0e5e53c3b9f9eb
+    :git: https://github.com/younata/Muon.git
+
+SPEC CHECKSUMS:
+  AMScrollingNavbar: be1de69f46cea4667026400db6cb22e783f9533d
+  Bolts: f52a250053bb517ca874523c3913776359ab3def
+  Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  FBSDKCoreKit: d2aaed5e9ab7d8d6301c533376a1fbff1cf3deb5
+  FBSDKLoginKit: 699ff169080e3072de4b9b0faca90bf23dc36deb
+  Muon: 69377f7084fccb18ce13fe90a008ed872427224c
+
+COCOAPODS: 0.39.0

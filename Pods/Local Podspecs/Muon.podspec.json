@@ -1,0 +1,22 @@
+{
+  "name": "Muon",
+  "version": "0.1.0",
+  "summary": "An RSS/Atom Parser in Swift.",
+  "homepage": "https://github.com/younata/Muon",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": "Rachel Brindle",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/younata/Muon.git"
+  },
+  "source_files": [
+    "Muon",
+    "Muon/**/*.{swift,h,m}"
+  ],
+  "requires_arc": true
+}
